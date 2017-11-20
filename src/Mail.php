@@ -89,13 +89,10 @@ class Mail extends PHPMailer
 
                 $layout->$method($value);
             }
-debug($layout);
+
             $layout->render();
 
-            $html = ob_get_clean();
-            $this->Body = $html;
-
-            debug($this);
+            $this->Body = ob_get_clean();
         }
 
         parent::send();
