@@ -13,9 +13,9 @@
     }
   ],
   "require": {
-    "php": ">=7.0.0",
-    "jcode/framework": "dev-development",
-    "jcode/framework-layout": "dev-master",
+    "php": "^7.0.0",
+    "jcode/framework": "^1.0.0",
+    "jcode/framework-layout": "^1.0.0",
     "phpmailer/phpmailer": "~6.0"
   },
   "autoload": {
